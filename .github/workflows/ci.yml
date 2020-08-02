@@ -3,7 +3,7 @@ name: CI
 on: [pull_request]
 
 jobs:
-  build:
+  Lint:
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

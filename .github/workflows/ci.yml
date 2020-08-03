@@ -16,17 +16,17 @@ jobs:
 
     - name: Check commit message
       uses: wagoid/commitlint-github-action@v1
-      
+
   Preview:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-      - uses: actions/checkout@v2
-        
-      - name: Deploy preview
-      - uses: amondnet/vercel-action@v19
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.ORG_ID}}
-          vercel-project-id: ${{ secrets.PROJECT_ID}}
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Deploy preview
+      uses: amondnet/vercel-action@v19
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        vercel-token: ${{ secrets.VERCEL_TOKEN }}
+        vercel-org-id: ${{ secrets.ORG_ID}}
+        vercel-project-id: ${{ secrets.PROJECT_ID}}

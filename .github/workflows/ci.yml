@@ -16,8 +16,7 @@ jobs:
 
     - name: Check commit message
       uses: wagoid/commitlint-github-action@v1
-
-jobs:
+      
   Preview:
     runs-on: ubuntu-latest
     steps:

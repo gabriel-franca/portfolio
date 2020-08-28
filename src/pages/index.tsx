@@ -1,6 +1,18 @@
 import React from 'react'
-import Title from '../components/Title'
+import Head from 'next/head'
 
-const Home: React.FC = () => <Title>Hello World</Title>
+import Logo from '~/assets/logo.svg'
+
+import * as S from '~/styles/pages/home'
+
+const Home: React.FC = () => (
+  <S.Container>
+    <Head>
+      <title>Gabriel França</title>
+    </Head>
+
+    <Logo />
+  </S.Container>
+)
 
 export default Home

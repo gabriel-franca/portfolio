@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render the main 1`] = `
+<div>
+  <svg
+    aria-label="Gabriel França"
+    fill="currentColor"
+    height="auto"
+    viewBox="0 0 100 115"
+    width="auto"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M75.002 71.76l-25 14.356-25-14.356V43.05l25-14.355 25 14.355L100 28.71 50.002 0 0 28.71v57.422l50.002 28.71L100 86.132V57.405L75 43.05 50.115 57.495 75.002 71.76"
+    />
+  </svg>
+</div>
+`

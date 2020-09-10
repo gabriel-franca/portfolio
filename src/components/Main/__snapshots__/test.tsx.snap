@@ -5,9 +5,7 @@ exports[`<Main /> should render the main 1`] = `
   <svg
     aria-label="Gabriel França"
     fill="currentColor"
-    height="auto"
     viewBox="0 0 100 115"
-    width="auto"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path

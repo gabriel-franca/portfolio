@@ -1,0 +1,21 @@
+{
+  "name": "Gabriel França",
+  "short_name": "Gabriel França",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#191A1E",
+  "description": "Hey, I'm Gabriel França! Passionate about programming and technology. Always looking to create valuable and well-crafted softwares that can help the world in some way. Working remotely, focused on TypesScript, Node.js, ReactJS, NextJS and React Native. Currently I have been studying ways to quickly and easily write code that is easy to read and maintain, through software architectures, principles and good programming practices. I love to study, learn and share new things.",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#191A1E"
+}

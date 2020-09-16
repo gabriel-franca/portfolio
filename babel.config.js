@@ -1,7 +1,13 @@
 module.exports = {
   presets: ['next/babel', '@babel/preset-typescript'],
   plugins: [
-    ['styled-components', { ssr: true }],
+    [
+      'styled-components',
+      {
+        ssr: true,
+        displayName: true
+      }
+    ],
     'inline-react-svg',
     [
       'babel-plugin-root-import',
@@ -10,5 +16,18 @@ module.exports = {
         rootPathPrefix: '~'
       }
     ]
-  ]
+  ],
+  env: {
+    test: {
+      plugins: [
+        [
+          'babel-plugin-styled-components',
+          {
+            ssr: false,
+            displayName: false
+          }
+        ]
+      ]
+    }
+  }
 }

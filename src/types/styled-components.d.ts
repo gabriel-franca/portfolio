@@ -1,7 +1,7 @@
 /* eslint @typescript-eslint/no-empty-interface: "off" */
 import 'styled-components'
 
-import theme from './theme'
+import theme from '~/styles/theme'
 
 export type Theme = typeof theme
 

@@ -6,6 +6,9 @@ const theme = {
     common: {
       white: '#ffffff'
     }
+  },
+  typography: {
+    htmlFontSize: '62.5%'
   }
 }
 

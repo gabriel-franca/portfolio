@@ -2,7 +2,7 @@ module.exports = {
   presets: ['next/babel', '@babel/preset-typescript'],
   plugins: [
     [
-      'styled-components',
+      'babel-plugin-styled-components',
       {
         ssr: true,
         displayName: true

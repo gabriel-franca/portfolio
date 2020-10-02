@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Typography /> should render body1 as default 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render body2 1`] = `
+.c0 {
+  font-size: 1.4rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render caption 1`] = `
+.c0 {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render headline1 1`] = `
+.c0 {
+  font-size: 4.8rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render headline2 1`] = `
+.c0 {
+  font-size: 3.4rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render headline3 1`] = `
+.c0 {
+  font-size: 2.4rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render overline 1`] = `
+.c0 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+<span
+  class="c0"
+>
+  typography
+</span>
+`;
+
+exports[`<Typography /> should render p 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+<p
+  class="c0"
+>
+  typography
+</p>
+`;
+
+exports[`<Typography /> should render p as default 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+<p
+  class="c0"
+>
+  typography
+</p>
+`;
+
+exports[`<Typography /> should render paragraph 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+<p
+  class="c0"
+>
+  typography
+</p>
+`;
+
+exports[`<Typography /> should render span as default 1`] = `
+.c0 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+<p
+  class="c0"
+>
+  typography
+</p>
+`;
